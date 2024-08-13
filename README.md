@@ -32,10 +32,15 @@ Each type of item may be available in multiple rooms, but the path must collect 
 Given the following map structure:
 
 places = 5
+
 start = 0
+
 end = 4
+
 connections = [(0, 1), (1, 2), (2, 3), (3, 4), (1, 3)]
+
 items = [[1, 2], [3, 4]]
+
 The function should determine the shortest path 🛤️ that starts at room 0, ends at room 4, and collects at least one of each item type (0 and 1), using the available corridors.
 
 Your task is to implement this function efficiently to handle varying map sizes and configurations 💻.
