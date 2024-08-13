@@ -10,6 +10,7 @@ start: An integer representing the room number where Max (the character) begins 
 end: An integer representing the room number where Max must bring the collected items 🎯.
 connections: A list of pairs of integers, where each pair (u, v) indicates a corridor between room u and room v 🛤️.
 items: A list of lists, where items[i] is a list of room numbers that contain the i-th type of item 📦.
+
 📤 Output:
 
 The function should return a list of room numbers (std::list<Place>) representing the shortest path 🏃 that:
@@ -25,6 +26,7 @@ If no such path exists that satisfies the above conditions, the function should 
 Room numbers are guaranteed to be within the range [0, places - 1] 🔢.
 The path must respect the connectivity of the rooms as defined by the connections list 🛤️.
 Each type of item may be available in multiple rooms, but the path must collect at least one of each type 🛍️.
+
 🧩 Example:
 
 Given the following map structure:
