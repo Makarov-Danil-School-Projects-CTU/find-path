@@ -1,3 +1,5 @@
+Keywords: C++, Graph theory, BFS
+
 📝 Problem Statement:
 
 You are tasked with implementing a function **std::list<Place> find_path(const Map &map)** that finds the shortest possible path in a given map of Grinch's lair, ensuring that the path collects at least one of each required item type. The path must start from a specific room, visit rooms to collect the necessary items, and end at another specified room. Each room is connected by corridors, and the path must respect these connections.
